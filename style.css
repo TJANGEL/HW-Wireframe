@@ -16,6 +16,8 @@ body {
     margin: 0 auto;
     position: relative;
     padding: 10px 50px 20px 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 h1,
@@ -37,9 +39,12 @@ h1,
 }
 
 .article,
-.aside {
+ .aside {
     color: #ebebeb;
     background: #777;
-
+    justify-content: space-between;
 }
 
+.aside {
+    float: right;
+}
