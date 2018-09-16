@@ -11,7 +11,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background: #777;
-    width: 960px;
+    width: 100%;
     font-size: 24px;
     line-height: 32px;
 }
@@ -33,8 +33,8 @@ h1,
 header,
 nav,
 footer,
-aside,
-section {
+section,
+aside {
     background: #ebebeb;
     color: #777;
     width: 495px;
@@ -44,8 +44,7 @@ section {
 }
 
 #full {
-    float: left;
-    width: 100%;
+    width: 66%;
 }
 
 article {
@@ -54,11 +53,23 @@ article {
     text-align: center;
 }
 
+section {
+    float: left;
+    height: 200px;
+    width: 66%;
+}
+
 aside {
     float: left;
     text-align: center;
     width: 33%;
-    height: 200px;
+    margin-left: 20px;
+    /* height: 200px;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 30px; */
+}
+
+footer {
+    padding: 20px;
+    clear: both;
 }
