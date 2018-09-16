@@ -11,9 +11,10 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background: #777;
-    width: 100%;
     font-size: 24px;
     line-height: 32px;
+    position: absolute;
+    width: 960px;
 }
 
 h1,
@@ -26,7 +27,7 @@ h1,
  }
 
 header {
-    width: 100%;
+
 }
 
 header,
@@ -42,21 +43,23 @@ article {
     padding: 20px;
     margin-bottom: 20px;
     margin: 20px;
+    clear: both;
 }
 
 section {
     float: left;
-    height: 400px;
+    height: 350px;
     width: 55%;
     overflow: auto;
-    clear: both;
 }
 
 article {
     color: #ebebeb;
     background: #777;
     text-align: center;
-    width: 95%;
+    /* width: 90%; */
+    margin: 0 auto;
+    float: left;
 }
 
 aside {
@@ -64,11 +67,10 @@ aside {
     text-align: center;
     width: 45%;
     clear: both;
-    height: 400px;
+    height: 350px;
     padding: 20px;
 }
 
 footer {
     padding: 20px;
-    clear: both;
 }
