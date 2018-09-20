@@ -45,6 +45,10 @@ body {
     margin-bottom: 10px;
 }
 
+#section-aside {
+    flex-flow: row;
+}
+
 #section-left {
     float: left;
     margin: 0 auto;
